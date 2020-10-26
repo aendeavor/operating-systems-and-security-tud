@@ -2,7 +2,7 @@
 
 ## Operating Systems and Security
 
-_An alternative to the OPAL forum with proper support for code highlighting and issues. This repository is meant for computer science students (and others) INF-B-380. Fully unofficial._
+_An addition to the OPAL forum with proper support for code highlighting and issues. This repository is meant for computer science students (and others) INF-B-380. Fully unofficial._
 
 ### Rationale
 
@@ -55,3 +55,5 @@ Now with make:
 
 1. `fork-exec` :: Introduction
 2. `fork-exec` :: Zombies
+3. `fork-exec` :: Task 1.13 Base Template
+4. `fork-exec` :: Task 1.15 with init-wrapper
