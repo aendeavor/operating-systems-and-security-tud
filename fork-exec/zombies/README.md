@@ -1,6 +1,6 @@
 # Zombie Processes
 
-The main difference here is that we're just `sleep`ing in the parent while out child executes anbd finishes. As we're **not** waiting for it, the child will remain in this exited status and become a _zombie_.
+The main difference compared to the introductory example is that we're just `sleep`ing in the parent while our child executes and actually finishes. As we're **not** waiting for it, the child will remain in this exited status and become a _zombie_.
 
 ## What's a zombie?
 
@@ -31,6 +31,6 @@ You can remove the `sleep` statement and try again. This time, of course, the pa
 
 _Zombie processes should not be confused with orphan processes: an orphan process is a process that is still executing, but whose parent has died. When the parent dies, the orphaned child process is adopted by init (process ID 1). When orphan processes die, they do not remain as zombie processes; instead, they are waited on by init. The result is that a process that is both a zombie and an orphan will be reaped automatically._
 
-To summarize, our process becomes orphaned since its parent died. As it is a zombie and an orphan, the `init` process (you can find this specimen with `ps aux | grep -v "grep" | grep "/sbin/init"` under Ubuntu) will become the new parent a`wait`ing it, effectively reaping (bringing it to an end) it.
+To summarize, our process becomes orphaned since its parent died. As it is a zombie and an orphan, the `init` process (you can find this specimen with `ps aux | grep -v "grep" | grep "/sbin/init"` under Ubuntu) will become the new parent a`wait`ing it, effectively reaping (bringing it to an end) it. You will therefore no longer be able to see it in the process list.
 
 [zombie_process::wikipedia]: https://en.wikipedia.org/wiki/Zombie_process
