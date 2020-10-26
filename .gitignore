@@ -50,3 +50,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# task specific files
+fork-exec/1.15_16/seminar
