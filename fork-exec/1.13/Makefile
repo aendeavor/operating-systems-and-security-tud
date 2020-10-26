@@ -8,5 +8,5 @@ run: build
 	@ ./$(FILE).out
 
 build:
-	gcc src/$(FILE).c -O3 -Wall -pedantic -std=c18 -o $(FILE).out
+	gcc src/$(FILE).c -Wall -pedantic -std=c18 -o $(FILE).out
 	@ echo
