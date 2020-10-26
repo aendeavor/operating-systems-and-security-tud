@@ -6,7 +6,7 @@ _An alternative to the OPAL forum with proper support for code highlighting and 
 
 ### Rationale
 
-This repository exists to work around the rather poor **formatting**, **syntax highlighting** and **issue reporting** support on the OPAL platform. It is meant to be accessible to every student who is interested in the, wants to learn more or discuss issues he or she ran into. Moreover, tutors are welcome to look into this too.
+This repository exists to work around the rather poor **formatting**, **syntax highlighting** and **issue reporting** support on the OPAL platform. It is meant to be accessible to every student who is interested in the topic, wants to learn more or discuss issues he or she ran into. Moreover, tutors are welcome to look into this too.
 
 This wil also provide anyone _unfamiliar_ with a shell (the command line) with _some_ experience.
 
