@@ -52,4 +52,5 @@ Mkfile.old
 dkms.conf
 
 # task specific files
-fork-exec/1.15_16/seminar
+fork-exec/1.15/seminar
+fork-exec/find/find

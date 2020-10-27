@@ -19,9 +19,19 @@ int main()
 			getppid());
 
 		char *argv[] = {"/bin/ls", "-l", NULL};
-		char *env[] = {"PATH=/bin/", NULL};
 
-		execve("/bin/ls", argv, env);
+		/*
+		    Note: We are using execvp() down below and NOT execve()
+		    because execvp() is easier:
+		      1. You don't need to specify environment variables
+		         and they were not introduced yet
+		      2. For those who know these variables: You don't need to
+		         specify the whole path since execvp() knows $PATH
+		*/
+
+		// char *env[] = {"PATH=/bin/", NULL};
+		// execve("/bin/ls", argv, env);
+		execvp("/bin/ls", argv);
 	}
 	else if (pid > 0)
 	{
