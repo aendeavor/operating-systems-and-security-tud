@@ -6,8 +6,8 @@ FILE := main
 .PHONY: all run
 
 run: build
-	@ ./$(FILE).out
+	@ ./main.out
 
 build:
-	$(CC) src/$(FILE).c -O3 -Wall -pedantic -std=c18 -o $(FILE).out
+	$(CC) src/main.c -O3 -Wall -pedantic -std=c18 -o main.out
 	@ echo
