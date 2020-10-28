@@ -27,7 +27,7 @@ The process you see is _defunct_, a zombie so to say.
 
 ## Why do we need to sleep?
 
-You can remove the `sleep` statement and try again. This time, of course, the parent exists immediately. What's up with the child now? [Wikipedia][zombie_process::wikipedia] will serve us well here too:
+You can remove the `sleep` statement and try again. This time, of course, the parent exits immediately. What's up with the child now? [Wikipedia][zombie_process::wikipedia] will serve us well here too:
 
 _Zombie processes should not be confused with orphan processes: an orphan process is a process that is still executing, but whose parent has died. When the parent dies, the orphaned child process is adopted by init (process ID 1). When orphan processes die, they do not remain as zombie processes; instead, they are waited on by init. The result is that a process that is both a zombie and an orphan will be reaped automatically._
 
