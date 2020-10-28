@@ -8,13 +8,13 @@ _An addition to the OPAL forum with proper support for code highlighting and iss
 
 This repository exists to work around the rather poor **formatting**, **syntax highlighting** and **issue reporting** support on the OPAL platform. It is meant to be accessible to every student who is interested in the topic, wants to learn more or discuss issues he or she ran into. Moreover, tutors are welcome to look into this too.
 
-This wil also provide anyone _unfamiliar_ with a shell (the command line) with _some_ experience.
+This will also provide anyone _unfamiliar_ with a shell (the command line) with _some_ experience.
 
 **Remember** that this is **completely unofficial**.
 
 ### If you're interested
 
-This repository is set-up to enable everyone to clone and work with it. Every peace of code is free to use and alter under the Apache 2.0 license. If you'd like to contribute, open a PR. If you have a question with regard to code in this repository, open an issue.
+This repository is set-up to enable everyone to clone and work with it. Every piece of code is free to use and alter under the Apache 2.0 license. If you'd like to contribute, open a PR. If you have a question with regard to code in this repository, open an issue.
 
 ### An Example
 
@@ -45,7 +45,7 @@ Let's try it without `make` first:
 
 Now with make:
 
-![Introcution with make](images/intro_with_make.png)
+![Introduction with make](images/intro_with_make.png)
 
 ***That's it***. Now have a look at the source code yourself and see what happens. For some examples, there is a dedicated `README.md` in each directory which explains the case presented in more detail.
 
