@@ -71,7 +71,7 @@ void execute_command_line(struct command *cmd_struct, int num_pipes)
 			{
 				int new_fds = open(
 					cmd_struct[i].output_redir,
-					O_APPEND | O_WRONLY | O_CREAT,
+					O_TRUNC | O_WRONLY | O_CREAT,
 					S_IRWXU);
 				dup2(new_fds, STDOUT_FILENO);
 				close(new_fds);
